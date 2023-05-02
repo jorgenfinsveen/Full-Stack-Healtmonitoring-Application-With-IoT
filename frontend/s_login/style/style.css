@@ -1,0 +1,38 @@
+
+body {
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+}
+
+header {
+    font-size: 25px;
+}
+
+#window {
+    margin-top: 20%;
+    margin-left: 27.5%;
+    background-color: steelblue;
+    width: 45%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#div-content {
+    margin-top: 5%;
+}
+
+#id, #pswrd {
+    height: 17px;
+    width: 200px;
+    margin-bottom: 0.5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+}
+
+#login {
+    width: 100px;
+    height: 21px;
+    font-size: 12px;
+    margin-bottom: 7.5%;
+}

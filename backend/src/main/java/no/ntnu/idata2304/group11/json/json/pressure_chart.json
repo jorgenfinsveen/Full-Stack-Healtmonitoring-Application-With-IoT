@@ -1,0 +1,224 @@
+{
+    "length": 13,
+    "0":
+    {
+        "age_min": 19,
+        "age_max": 24,
+        "male": {
+            "sys": 120,
+            "dia": 79,
+            "hr_min": 56,
+            "hr_max": 81
+        },
+        "female": {
+            "sys": 120,
+            "dia": 79,
+            "hr_min": 61,
+            "hr_max": 84
+        }
+    },
+    "1":
+    {
+        "age_min": 25,
+        "age_max": 29,
+        "male": {
+            "sys": 121,
+            "dia": 80,
+            "hr_min": 56,
+            "hr_max": 81
+        },
+        "female": {
+            "sys": 120,
+            "dia": 80,
+            "hr_min": 61,
+            "hr_max": 84
+        }
+    },
+    "2":
+    {
+        "age_min": 30,
+        "age_max": 35,
+        "male": {
+            "sys": 123,
+            "dia": 82,
+            "hr_min": 54,
+            "hr_max": 81
+        },
+        "female": {
+            "sys": 122,
+            "dia": 81,
+            "hr_min": 60,
+            "hr_max": 82
+        }
+    },
+    "3":
+    {
+        "age_min": 36,
+        "age_max": 39,
+        "male": {
+            "sys": 124,
+            "dia": 83,
+            "hr_min": 54,
+            "hr_max": 81
+        },
+        "female": {
+            "sys": 123,
+            "dia": 81,
+            "hr_min": 60,
+            "hr_max": 82
+        }
+    },
+    "4":
+    {
+        "age_min": 40,
+        "age_max": 45,
+        "male": {
+            "sys": 125,
+            "dia": 83,
+            "hr_min": 57,
+            "hr_max": 82
+        },
+        "female": {
+            "sys": 124,
+            "dia": 83,
+            "hr_min": 60,
+            "hr_max": 84
+        }
+    },
+    "5":
+    {
+        "age_min": 46,
+        "age_max": 49,
+        "male": {
+            "sys": 127,
+            "dia": 84,
+            "hr_min": 57,
+            "hr_max": 82
+        },
+        "female": {
+            "sys": 126,
+            "dia": 84,
+            "hr_min": 60,
+            "hr_max": 84
+        }
+    },
+    "6":
+    {
+        "age_min": 50,
+        "age_max": 55,
+        "male": {
+            "sys": 128,
+            "dia": 85,
+            "hr_min": 58,
+            "hr_max": 83
+        },
+        "female": {
+            "sys": 129,
+            "dia": 85,
+            "hr_min": 61,
+            "hr_max": 83
+        }
+    },
+    "7":
+    {
+        "age_min": 56,
+        "age_max": 59,
+        "male": {
+            "sys": 131,
+            "dia": 87,
+            "hr_min": 58,
+            "hr_max": 83
+        },
+        "female": {
+            "sys": 130,
+            "dia": 86,
+            "hr_min": 61,
+            "hr_max": 83
+        }
+    },
+    "8":
+    {
+        "age_min": 60,
+        "age_max": 65,
+        "male": {
+            "sys": 131,
+            "dia": 80,
+            "hr_min": 57,
+            "hr_max": 81
+        },
+        "female": {
+            "sys": 130,
+            "dia": 86,
+            "hr_min": 60,
+            "hr_max": 83
+        }
+    },
+    "9":
+    {
+        "age_min": 66,
+        "age_max": 70,
+        "male": {
+            "sys": 140,
+            "dia": 90,
+            "hr_min": 57,
+            "hr_max": 81
+        },
+        "female": {
+            "sys": 135,
+            "dia": 85,
+            "hr_min": 60,
+            "hr_max": 83
+        }
+    },
+    "10":
+    {
+        "age_min": 70,
+        "age_max": 75,
+        "male": {
+            "sys": 155,
+            "dia": 95,
+            "hr_min": 56,
+            "hr_max": 79
+        },
+        "female": {
+            "sys": 140,
+            "dia": 90,
+            "hr_min": 60,
+            "hr_max": 84
+        }
+    },
+    "11":
+    {
+        "age_min": 76,
+        "age_max": 79,
+        "male": {
+            "sys": 170,
+            "dia": 105,
+            "hr_min": 56,
+            "hr_max": 79
+        },
+        "female": {
+            "sys": 145,
+            "dia": 95,
+            "hr_min": 60,
+            "hr_max": 84
+        }
+    },
+    "12":
+    {
+        "age_min": 80,
+        "age_max": 150,
+        "male": {
+            "sys": 180,
+            "dia": 115,
+            "hr_min": 56,
+            "hr_max": 79
+        },
+        "female": {
+            "sys": 150,
+            "dia": 100,
+            "hr_min": 60,
+            "hr_max": 84
+        }
+    }
+}

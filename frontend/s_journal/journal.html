@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/index.css">
+    <!--Icons for sidebar-->
+    <script src="https://kit.fontawesome.com/0a8856d0a6.js" crossorigin="anonymous"></script>
+    <script type="module" src="logic/index.js"></script>
+    <title>Journal</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="graph/style/graph.css">
+</head>
+
+<!-- ROBOTO FONT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<body>
+    <div class="sidebar">
+        <header>HealthMonitor</header>
+        <ul>
+            <li><a href="../s_index/index.html"><i class="fa-sharp fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a href="../s_patients/patients.html"><i class="fa-sharp fa-solid fa-user"></i>Patients</a></li>
+            <li><a href="/index.html"><i class="fa-solid fa-right-to-bracket"></i>Log Out</a></li>
+        </ul>
+    </div>
+
+
+    <div id="header">
+        <div class="employeeDetailsDiv">
+            <i class="employeeDetails" id="details">
+                Username: (employeeDetails) <br>
+                ID: (employeeID)
+            </i>
+        </div>
+        <div class="logo">
+            <img id='logoPic'>
+        </div>
+    </div>
+
+    <div class="tablediv">
+        <div class="line-chart">
+            <div class="aspect-ratio">
+              <canvas id="mycanvas" height="460" width="800" ></canvas>
+            </div>
+        </div>
+          
+        <!-- javascript -->
+        <script type="text/javascript" src="graph/logic/jquery.min.js"></script>
+        <script type="text/javascript" src="graph/logic/Chart.min.js"></script>
+        <script type="text/javascript" src="graph/logic/linegraph.js"></script>   
+    </div>
+
+    <div class="critialPatientsDiv">
+        <div id="personalia">
+            PID: ----<br>
+            Name: -----<br>
+            Date of Birth: ----<br>
+            Sex: -----<br>
+            <br>
+            Status: -----<br>
+            Sensor: -----
+        </div>
+        
+        <div class="icd-div">
+            <table class="diagnosticTable">
+                <thead>
+                    <th class="dh">ICD-10</th>
+                    <th class="dd">Description</th>
+                </thead>
+                <tbody id="icd-output">
+                </tbody>
+            </table>
+        </div>    
+    </div>
+</body>
+</html>

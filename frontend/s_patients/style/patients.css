@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+}
+
+.logo{
+    display: inline-block;
+    text-align: center;
+    margin-left: 220px;
+    vertical-align: top;
+}
+
+.employeeDetailsDiv{
+    margin-left: 350px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.patientSearch{
+    margin-top: 70px;
+    margin-left: 330px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.searchBar{
+    border-radius: 25px 0 0 25px;
+    height: 40px;
+    width: 300px;
+    padding: 0 25px;
+    border-width: 1px;
+    border: solid;
+    border-color: #4682b4;
+}
+
+.submitButton{
+    left: -7px;
+    outline: none;
+    position: relative;
+    background-color: #4682b4;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height: 46px;
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: steelblue;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 120px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .6s;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+    
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+                            /*Patient table */
+
+.tablediv{
+    margin-left: -22px;
+    font-weight: 400;
+}
+
+.content-table {
+    line-height: 70px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    margin-left: 332px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #4682b4;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.content-table tbody {
+    margin-bottom: 50px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 3px solid #4682b4;
+}
+
+.journalBtn {
+    color: rgb(118, 93, 255);
+}
+
+.journalBtn:hover {
+    color: rgb(75, 5, 161);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.journalBtn:active {
+    font-size: 13px; 
+}
+
+.journalBtn:visited {
+    color: rgb(195, 0, 255);
+}
+
+.status-critical {
+    color: red;
+}
+
+.status-unusual {
+    color: orange;
+}
+
+.status-stable {
+    color: green;
+}

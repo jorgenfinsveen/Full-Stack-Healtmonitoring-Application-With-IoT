@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/dashboard.css">
+    <!--Icons for sidebar-->
+    <script src="https://kit.fontawesome.com/0a8856d0a6.js" crossorigin="anonymous"></script>
+    <title>Healthmonitor</title>
+</head>
+
+<!-- ROBOTO FONT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!--  -->
+
+<body>
+
+    <div class="sidebar">
+        <header>Healthmonitor</header>
+        <ul>
+            <li><a href="index.html"><i class="fa-sharp fa-solid fa-house"></i>Dashboard</a></li>
+            <li><a href="page/patients.html"><i class="fa-sharp fa-solid fa-user"></i>Patients</a></li>
+        </ul>
+    </div>
+
+
+    <div>
+        <div class="employeeDetailsDiv">
+            <p class="employeeDetails">
+                Username: (employeeDetails) <br/> 
+                ID: (employeeID)
+            </p>
+        </div>
+
+        <div class="logo">
+            <img src="img/logo.png">
+        </div>
+    </div>
+
+    <div class="critialPatientsDiv">
+        <p class="criticalPatients">
+            Critical Patients
+        </p>
+    </div>
+
+    <div class="tablediv">
+        <table class="content-table" bgcolor="lightblue" height="auto">
+            <thead>
+            <tr>
+                <th width="120px">PatientID</th>
+                <th width="200px">Name</th>
+                <th width="50px">Age</th>
+                <th width="230px">Diagnosis</th>
+                <th width="100px">Status</th>
+                <th width="100px">Journal</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>233123</td>
+                <td>Ola Norman</td>
+                <td>82</td>
+                <td>E2</td>
+                <td><span style="color: red;"> <b>CRITICAL</b></span></td></td>
+                <td><a href><i>See journal</i></a></td>
+            </tr>
+            <tr>
+                <td>123332</td>
+                <td>Ola Skruemann</td>
+                <td>75</td>
+                <td>E11</td>
+                <td><span style="color: red;"> <b>CRITICAL</b></span></td></td>
+                <td><a href><i>See journal</i></a></td>
+            </tr>
+            <tr>
+                <td>956992</td>
+                <td>Ola Muttermann</td>
+                <td>72</td>
+                <td>E21</td>
+                <td><span style="color: red;"> <b>CRITICAL</b></span></td></td>
+                <td><a href><i>See journal</i></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+</body>
+</html>

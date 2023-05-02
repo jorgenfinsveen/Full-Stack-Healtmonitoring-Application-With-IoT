@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+}
+
+#window {
+    height: 100vw;
+}
+#section-left {
+    width: 250px;
+}
+#section-middle {
+    width: 900px;
+}
+#section-left-top {
+    height: 150px;
+}
+
+td {
+    border-style: 1px solid black;
+}
+
+
+
+
+
+
+#header {
+    display: inline-block;
+    margin-left: auto;
+  }
+
+.logo{
+    display: inline-block;
+    text-align: center;
+    margin-left: 290px;
+    vertical-align: top;
+    margin-top: -90px;
+}
+
+.employeeDetailsDiv{
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -60px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: steelblue;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 120px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .6s;
+}
+
+.sidebartoptext{
+    color: red;
+}
+
+
+.sidebar ul a i{
+    margin-right: 16px;    
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+#mycanvas {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.critialPatientsDiv, #personalia, .icd-div {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.icd-div {
+    margin-left: 150px;
+    
+}
+
+.dh {
+    width: 100px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.dd {
+    width: 250px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.diagnosticTable {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.status-critical {
+    color: red;
+}
+
+.status-unusual {
+    color: orange;
+}
+
+.status-stable {
+    color: green;
+}
+
+#header {
+    padding-top: 100px;
+    margin-left: 150px;
+}
+
+.critialPatientsDiv {
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
